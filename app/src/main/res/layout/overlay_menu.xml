@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/surface_dark"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:elevation="12dp">
+
+    <ImageView
+        android:id="@+id/btn_drag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:contentDescription="Drag Menu"
+        android:tint="@color/text_white"/>
+
+    <ImageView
+        android:id="@+id/btn_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="Play/Pause"
+        android:tint="#00FF00"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:id="@+id/btn_add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_input_add"
+        android:contentDescription="Add Click Point"
+        android:tint="#00FFFF"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:id="@+id/btn_save_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_save"
+        android:contentDescription="Save Automation Profile"
+        android:tint="#FFEB3B"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:id="@+id/btn_clear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_delete"
+        android:contentDescription="Clear Target Points"
+        android:tint="#FF3333"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="Dismiss Control Overlay"
+        android:tint="@color/text_white"
+        android:layout_marginTop="6dp"/>
+</LinearLayout>

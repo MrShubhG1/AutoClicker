@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auto Clicker Master</string>
+    <string name="accessibility_desc">Required to safely simulate user interactions like precise programmatic automated taps and swipes.</string>
+</resources>
