@@ -8,7 +8,7 @@ workflows:
         script: chmod +x gradlew
 
       - name: Build Android APK
-        script: ./gradlew assembleRelease
+        script: ./gradlew assembleDebug
 
     artifacts:
       - app/build/outputs/apk/**/*.apk
