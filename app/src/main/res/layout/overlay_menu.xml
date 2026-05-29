@@ -5,106 +5,106 @@
     android:layout_height="wrap_content"
     android:background="@color/surface_dark"
     android:orientation="vertical"
-    android:padding="8dp"
-    android:elevation="12dp">
+    android:padding="4dp"
+    android:elevation="8dp">
 
     <ImageView
         android:id="@+id/btn_drag"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_sort_by_size"
         android:contentDescription="Drag Menu"
         android:tint="@color/text_white" />
 
     <ImageView
         android:id="@+id/btn_play"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_media_play"
         android:contentDescription="Play/Pause"
         android:tint="#00FF00"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_add"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_input_add"
         android:contentDescription="Add Click Point"
         android:tint="#00FFFF"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_toggle_visibility"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_view"
         android:contentDescription="Toggle Visibility"
         android:tint="#4CAF50"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_save_profile"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_save"
         android:contentDescription="Save Profile"
         android:tint="#FFEB3B"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_share_profile"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_share"
         android:contentDescription="Share Profile"
         android:tint="#9C27B0"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_import_profile"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_upload"
         android:contentDescription="Import Profile"
         android:tint="#FF9800"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_back"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_media_previous"
         android:contentDescription="Back"
         android:tint="#FFFFFF"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_clear"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_delete"
         android:contentDescription="Clear"
         android:tint="#FF3333"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
     <ImageView
         android:id="@+id/btn_close"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:padding="4dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="2dp"
         android:src="@android:drawable/ic_menu_close_clear_cancel"
         android:contentDescription="Close"
         android:tint="@color/text_white"
-        android:layout_marginTop="6dp" />
+        android:layout_marginTop="3dp" />
 
 </LinearLayout>
