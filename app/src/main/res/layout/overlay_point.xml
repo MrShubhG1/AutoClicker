@@ -4,10 +4,11 @@
     android:layout_height="18dp">
 
     <View
-        android:id="@+id/point_background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/circle_point"/>
+    android:id="@+id/point_background"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_gravity="center"
+    android:background="@drawable/circle_point"/>
 
     <TextView
         android:id="@+id/point_number"
